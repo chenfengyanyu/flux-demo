@@ -1,0 +1,29 @@
+{
+  "name": "flux-demo",
+  "version": "1.1.1",
+  "description": "flux webpack react",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenfengyanyu/flux-demo.git"
+  },
+  "keywords": [
+    "flux",
+    "webpack",
+    "react"
+  ],
+  "author": "jartto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenfengyanyu/flux-demo/issues"
+  },
+  "homepage": "https://github.com/chenfengyanyu/flux-demo#readme",
+  "dependencies": {
+    "object-assign": "^4.0.1",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
