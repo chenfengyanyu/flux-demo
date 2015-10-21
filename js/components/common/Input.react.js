@@ -40,7 +40,7 @@ var Input = React.createClass({
   	var items = TestStore.getAll();
     var elements = items.map(function(item,i){
         return (
-            <li><span>{item.text}</span> , <span onClick={this.removeItem.bind(this,item.id)}>删除</span></li>
+            <li key={'test'+i}><span>{item.text}</span> , <span onClick={this.removeItem.bind(this,item.id)}>删除</span></li>
         )
     }.bind(this));
   	return (
