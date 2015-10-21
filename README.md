@@ -3,8 +3,8 @@ use flux and webpack to create a react demo
 
 ##目标
 >
-1.结构化react编程
-2.可扩展性
+1. 结构化react编程
+2. 可扩展性
 
 ##说明
 - dispatcher:
