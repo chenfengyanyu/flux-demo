@@ -5,6 +5,7 @@ var Header = React.createClass({
   	return (
       <header>
       <h3>页头</h3>
+      ＝＝＝＝＝＝＝＝＝＝＝
       </header>
     );
   },
