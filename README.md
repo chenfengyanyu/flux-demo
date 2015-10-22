@@ -45,8 +45,9 @@ http://my.oschina.net/ilivebox/blog/402813
 - ReactRouter 使用指南  
 http://undefinedblog.com/react-router/
 
-持续补充中～～～
+- 持续补充中～～～
 
 
 ##其他
-> 以上为本人在学习中收集的资料，入个门应该够了。咳～咳，当然，你需要首先了解reactjs，要不你将很难发现flux架构的可贵之处。当然，flux是框架或是其他，这里就不在纠结了。
+> 以上为本人在学习中收集的资料，入个门应该够了。咳～咳，当然，你需要首先了解reactjs，要不你将很难发现flux架构的可贵之处。当然，flux是框架或是其他，这里就不在纠结了。  
+入门哦，高手请自觉绕道！
