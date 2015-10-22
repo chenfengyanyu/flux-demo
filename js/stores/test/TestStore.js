@@ -5,7 +5,7 @@ var assign = require('object-assign');//对象操作
 var _ = require('underscore');//数组操作
 
 var CHANGE_EVENT = 'change';
-var _tests = [];
+var _tests = [{id:'page1',text:'jartto'}];
 
 function create(text){
 	var id = (+new Date() + Math.floor(Math.random() * 999999)).toString(36);

@@ -48,6 +48,9 @@ http://undefinedblog.com/react-router/
 - ReactRouter github地址  
 https://github.com/rackt/react-router
 
+- React-Router With Flux  
+http://jaketrent.com/post/react-router-with-flux/
+
 - 持续补充中～～～
 
 
