@@ -1,7 +1,7 @@
 # flux-demo
 - 使用flux框架和webpack打包工具创建的一个简单react示例
 - 参考了flux官方todomvc例子
-- 添加了路由控制
+- 添加了路由控制，使用react-router
 - 拆分了common公用库和layout布局库
 
 ##目标
