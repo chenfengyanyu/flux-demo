@@ -1,7 +1,7 @@
 {
   "name": "flux-demo",
   "version": "1.0.0",
-  "description": "flux webpack react",
+  "description": "flux react-router webpack react",
   "main": "server.js",
   "dependencies": {
     "babel-core": "^5.8.25",
