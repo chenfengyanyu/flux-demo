@@ -17,7 +17,7 @@ function create(text){
 
 function destory(id){
 	_tests = _.filter(_tests,function(value){
-      // console.log(value);
+      //console.log(value);
       return value.id !=id;
    })
 }

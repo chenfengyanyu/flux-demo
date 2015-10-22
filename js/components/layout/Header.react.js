@@ -4,7 +4,7 @@ var Header = React.createClass({
   render: function() {
   	return (
       <header>
-      <h3>页头flux demo</h3>
+      <h3>页头</h3>
       </header>
     );
   },
