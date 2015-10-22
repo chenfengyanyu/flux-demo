@@ -45,6 +45,9 @@ http://my.oschina.net/ilivebox/blog/402813
 - ReactRouter 使用指南  
 http://undefinedblog.com/react-router/
 
+- ReactRouter github地址  
+https://github.com/rackt/react-router
+
 - 持续补充中～～～
 
 
