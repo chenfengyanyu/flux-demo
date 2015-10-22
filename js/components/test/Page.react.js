@@ -14,7 +14,7 @@ var Page = React.createClass({
           <ul>
             <li><Link to='/'>首页</Link></li>
             <li><Link to='/page'>路由</Link></li>
-            <li><Link to='/get?name=jartto' params={{user: "jartto"}}>传个值试试</Link></li>
+            <li><Link to='/get?name=Jartto'>传个“Jartto”试试</Link></li>
             <li><Link to='/no'>其他</Link></li>
           </ul>
           
