@@ -4,6 +4,8 @@ var Section = require('./Section.react');
 var Footer = require('../layout/Footer.react');
 var TestStore =  require("../../stores/test/TestStore.js");
 
+var BaseCSS = require('../../../css/base.css');
+
 var TestApp = React.createClass({
 	getInitialState: function(){
       return {

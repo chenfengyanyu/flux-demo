@@ -44,8 +44,10 @@ var config = {
             test: /\.jsx?$/,
             loaders: ['react-hot', 'babel'],
             exclude: /node_modules/
-        },
-        { 
+        },{
+            test: /\.less$/, 
+            loader: 'style-loader!css-loader!less-loader' 
+        },{ 
             test: /\.css$/, 
             loader: 'style-loader!css-loader' 
         }]

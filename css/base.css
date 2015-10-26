@@ -1,42 +1,44 @@
 /*index.html*/
 
+/*css文件依赖过多，less需要require加载，会引发相互覆盖的问题*/
+@base-size: 1.2rem; //12px
+
+html {
+    font-size: 62.5%;
+}
+
 body {
     margin: 0 auto;
     color: #595757;
+    font-size: 1.6rem;
 }
 
-a:link, 
-a:visited { 
-    color:#595757; 
-    text-decoration:none; 
-} 
-a:hover, 
-a:active { 
-    color:#595757; 
-    text-decoration:none; 
-} 
+a:link,
+a:visited {
+    color: #595757;
+    text-decoration: none;
+}
 
+a:hover,
+a:active {
+    color: #595757;
+    text-decoration: none;
+}
 
+@media screen and (max-width: 360px) {
+    html {
+        font-size: 62.5%;
+    }
+}
 
+@media screen and (min-width: 361px) and (max-width: 376px) {
+    html {
+        font-size: 66.5%;
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (min-width: 377px) {
+    html {
+        font-size: 75.5%;
+    }
+}

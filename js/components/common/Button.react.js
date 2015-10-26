@@ -3,15 +3,22 @@ var ButtonCss = require('../../../css/component/button.css');
 var $ = require('jquery');
 
 var Button = React.createClass({
-	getInitialState: function () {
-    return {obj:this.props};
-  },
-  changeColor: function(color){
-  	console.log(color);
-  	if(!color) return;
-    // require('../../../css/skins/'+color+'.css');
+	propTypes: {
+		text: React.PropTypes.string.isRequired,
+		to: React.PropTypes.string,
+		color: React.PropTypes.string
+	},
+
+  changeColor: function(obj){
+  	console.dir(obj);
+  	if(!obj) return;
     var link = $('link')[1];
-    $(link).attr('href','css/skins/'+color+'.css');
+    $(link).attr('href','css/skins/'+obj+'.css');
+    //重定向到当前页面，解决link替换css未及时更新问题
+    location.href = '#/color';
+    // require('../../../css/skins/'+obj+'.css');
+
+    localStorage.setItem('skins-cur',obj);
   }, 
 
   gotoLink: function(to){
@@ -19,31 +26,26 @@ var Button = React.createClass({
   	location.href = to;
   },
 
-  emitFunction: function(obj){
+  handleClick: function(){
   	var obj = this.props;
   	if(obj.color){
   		this.changeColor(obj.color);
   	}else if(obj.to){
-  		this.gotoLink(obj.to);
+  		this.gotoLink(obj);
   	}else{
   		return;
   	}
   },
-  componentDidMount: function () {
-    this.updateState(this.props);
+
+  componentDidMount: function(){
+  	var temp = localStorage.getItem('skins-cur');
+  	if(!temp) return;
+  	this.changeColor(temp);
   },
 
-  componentWillReceiveProps: function (nextProps) {
-    this.updateState(nextProps);
-  },
-
-  updateState: function (props) {
-  	console.log('update');
-  	this.setState({obj:''});
-  },
   render: function() {
   	return (
-  		<div className="button" onClick={this.emitFunction}>
+  		<div className="button" onClick={this.handleClick}>
   			{this.props.text}
   		</div>
     );
