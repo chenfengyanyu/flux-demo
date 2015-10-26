@@ -1,6 +1,7 @@
 var React = require('react');
-var TestAction =  require("../../actions/test/TestAction.js");
-var TestStore =  require("../../stores/test/TestStore.js");
+var TestAction =  require('../../actions/test/TestAction.js');
+var TestStore =  require('../../stores/test/TestStore.js');
+var ListCss = require('../../../css/component/list.css');
 
 var List = React.createClass({
   removeItem: function(id){
@@ -16,7 +17,7 @@ var List = React.createClass({
     }.bind(this));
     return (
       <div>
-        <ul>
+        <ul id="test">
           {elements}
         </ul>
       </div>

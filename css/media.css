@@ -1,0 +1,21 @@
+html {
+    font-size: 62.5%;
+}
+
+@media screen and (max-width: 360px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 376px) {
+    html {
+        font-size: 66.5%;
+    }
+}
+
+@media screen and (min-width: 377px) {
+    html {
+        font-size: 75.5%;
+    }
+}

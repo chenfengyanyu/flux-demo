@@ -28,7 +28,7 @@ var TestApp = React.createClass({
   render: function() {
     return (
       <div>
-        <Header />
+        <Header title="欢迎"/>
         	<Section />
         <Footer/>
       </div>

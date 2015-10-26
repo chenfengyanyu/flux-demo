@@ -8,7 +8,11 @@ var Get = React.createClass({
     var val = BaseStore.getUrlParams('name');
     return (
       <div>
-        哟，传过来个：{val}
+      	<Header title="传值"/>
+      		<div id="content">
+        		哟，传过来个：{val}
+        	</div>
+        <Footer/>
       </div>
     );
   },

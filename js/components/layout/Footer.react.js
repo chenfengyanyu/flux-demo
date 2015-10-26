@@ -1,11 +1,11 @@
 var React = require('react');
+var FooterCss = require('../../../css/component/footer.css');
 
 var Footer = React.createClass({
   render: function() {
   	return (
-      <footer>
-      	＝＝＝＝＝＝＝＝＝＝＝
-        <h3>页脚</h3>
+      <footer id="footer">
+       页脚
       </footer>
     );
   },

@@ -6,7 +6,8 @@ var path = require('path');
 var webpack = require('webpack');
 var node_modules_dir = path.join(__dirname, 'node_modules');
 var components_dir = path.join(__dirname, 'js/components')+"/";
-
+var css_dir = path.join(__dirname, 'css/');
+console.log(__dirname);
 //独立项
 var deps = [
     'react/dist/react.min.js',
@@ -43,6 +44,10 @@ var config = {
             test: /\.jsx?$/,
             loaders: ['react-hot', 'babel'],
             exclude: /node_modules/
+        },
+        { 
+            test: /\.css$/, 
+            loader: 'style-loader!css-loader' 
         }]
     }
 }
