@@ -4,6 +4,7 @@
 - 参考了flux官方todomvc例子
 - 添加了路由控制，使用react-router
 - 拆分了common公用库和layout布局库
+- 尝试添加less文件
 
 ##目标
 >
@@ -54,7 +55,3 @@ http://jaketrent.com/post/react-router-with-flux/
 
 - 持续补充中～～～
 
-
-##其他
-> 以上为本人在学习中收集的资料，入个门应该够了。咳～咳，当然，你需要首先了解reactjs，要不你将很难发现flux架构的可贵之处。当然，flux是框架或是其他，这里就不在纠结了。  
-入门哦，高手请自觉绕道！
