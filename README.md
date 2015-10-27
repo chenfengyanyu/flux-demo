@@ -5,6 +5,7 @@
 - 添加了路由控制，使用react-router
 - 拆分了common公用库和layout布局库
 - 尝试添加less文件
+- 添加了loader公共模块
 
 ##目标
 >
@@ -52,6 +53,9 @@ https://github.com/rackt/react-router
 
 - React-Router With Flux  
 http://jaketrent.com/post/react-router-with-flux/
+
+- loader  
+https://github.com/quickleft/react-loader
 
 - 持续补充中～～～
 
